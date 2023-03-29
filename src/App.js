@@ -1,6 +1,6 @@
 import './App.css';
 import { useEffect, useState } from 'react';
-import { Form, Input, Table, DatePicker, Select } from 'antd';
+import { ConfigProvider, theme, Form, Input, Table, DatePicker, Select } from 'antd';
 import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 dayjs.extend(customParseFormat);
@@ -110,6 +110,10 @@ function App() {
   }
 
   return (
+    <ConfigProvider     
+      theme={{
+        algorithm: theme.darkAlgorithm,
+      }}>
     <div className="App">
       <Form form={form} layout="inline">
         <Form.Item
@@ -152,6 +156,7 @@ function App() {
         >
       </Table>
     </div>
+    </ConfigProvider>
   );
 }
 
