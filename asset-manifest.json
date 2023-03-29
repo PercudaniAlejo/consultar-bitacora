@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/consultar-bitacora/static/css/main.da7d95ed.css",
-    "main.js": "/consultar-bitacora/static/js/main.a58aa9ed.js",
+    "main.css": "/consultar-bitacora/static/css/main.a8581a01.css",
+    "main.js": "/consultar-bitacora/static/js/main.b390a575.js",
     "static/js/787.be724875.chunk.js": "/consultar-bitacora/static/js/787.be724875.chunk.js",
     "index.html": "/consultar-bitacora/index.html",
-    "main.da7d95ed.css.map": "/consultar-bitacora/static/css/main.da7d95ed.css.map",
-    "main.a58aa9ed.js.map": "/consultar-bitacora/static/js/main.a58aa9ed.js.map",
+    "main.a8581a01.css.map": "/consultar-bitacora/static/css/main.a8581a01.css.map",
+    "main.b390a575.js.map": "/consultar-bitacora/static/js/main.b390a575.js.map",
     "787.be724875.chunk.js.map": "/consultar-bitacora/static/js/787.be724875.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da7d95ed.css",
-    "static/js/main.a58aa9ed.js"
+    "static/css/main.a8581a01.css",
+    "static/js/main.b390a575.js"
   ]
 }
